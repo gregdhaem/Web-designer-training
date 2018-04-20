@@ -22,8 +22,9 @@
     l($('.MaClasse'));
     l('____');
 
+// Sélectionner un attribut
     l($('[href="#"]'));
     l('____');
 });
 
-//                                 🚔
+                             

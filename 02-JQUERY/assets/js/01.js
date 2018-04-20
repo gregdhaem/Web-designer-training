@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 // 3-
 $(function(){
-
+// DOM chargé je peux procéder à mon code JQuery
 });
 
 // 3-bis
