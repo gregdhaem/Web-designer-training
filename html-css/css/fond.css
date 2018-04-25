@@ -1,0 +1,63 @@
+body{
+    background: #000000 url(../img/fond1.jpg) no-repeat;
+    background-size: cover; /* en css permet de couvrir tout l'écran, fond extensible, peut importe la taille et la résolution*/
+    /* background: #000000 url(../img/fond1.jpg) no-repeat cover; */
+}
+
+
+
+.contenu{
+    background: rgba(255, 255, 255, 0.3); /* opacité de l'élément avec rgba mieux que opcity car n'atténue pas la couleur du texte */
+    width: 800px; /* largeur */
+    height: 500px; /* hauteur */
+    margin: 200px auto 0 auto; /* auto calcul automatique de la marge gauche et droite */
+    padding: 10px;
+}
+
+.contenu-g{
+    background: radial-gradient(  rgba(248, 226, 226, 0.294) 0%, #ebf5f7 80% );
+    width: 800px; /* largeur */
+    height: 500px; /* hauteur */
+    margin: 200px auto 0 auto; /* auto calcul automatique de la marge gauche et droite */
+    padding: 10px;  
+}
+
+.contenu, .contenu-g p{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.image-fleur{
+    width: 600px;
+    height: auto;
+    margin: 40px auto;
+    display: block;
+}
+/* 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover; 
+
+Webkit = chrome, moz = Mozilla, o = Opera, ms = MicroSoft
+
+
+BAckground: linear-gradiant( to left, red, blue); backgroung linéaire partant de la gauche rouge vers bleu.
+
+
+
+Prefix:
+-moz FF3.6+
+-webkit Chrome Safari
+-o Opera
+-me IE
+
+
+*/
+
+
+
+
+
+

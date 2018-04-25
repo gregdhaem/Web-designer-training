@@ -1,0 +1,29 @@
+/* .container{
+    width: 960px;
+    margin-left: 50px;
+} */
+
+.blck1{
+    width: 960px;
+    height: 100px;
+    border: 10px solid black;
+    margin-left: 50px;
+    margin: 50px;
+}
+
+.blck2, .blck3, .blck4, .blck5{
+    float: left;
+    width: 150px;
+    height: 300px;
+    text-align: center;
+    border: 10px solid black;
+    margin: 50px;
+}
+
+.blck6{
+    float: left;
+    width: 960px;
+    height: 200px;
+    border: 10px solid black;
+    margin: 50px;
+}

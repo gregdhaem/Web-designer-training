@@ -1,0 +1,44 @@
+
+
+/* Remise à zéro des marges externes et internes ainsi que des bordures de tous les éléments */
+* { margin: 0; padding: 0; border: 0; }
+
+/* Autres titres et couleur pricipale des polices à #333 et mise en place de l'image de fond */
+body { font-family: Arial, Helvetica, sans-serif; color: #333; background-image: url("../img/background.png"); } 
+
+/* Couleur du fond de la partie header et footer à #C55394 et polices à #FFF */
+header { background-color: #C55394; color: #FFF; display: flex; flex-direction: row; } 
+
+/* Modification de la couleur au passage de la souris sur le menu décrit dans <nav> en forme de liste <ul>/<li> */
+nav:hover{ background-color: #EB43A3; }
+
+/* Les textes sont imposés en majuscule et le menu est collé sur la droite du header */
+nav { text-transform: uppercase; display: flex; display: flex; flex-direction: row; }
+li { list-style-type: none; }
+section { max-width: 960px; background-color: #FFF; margin: auto; box-shadow: 3px 15px 20px #c0c0c0; margin-bottom: 20px; padding: 20px; border-radius: 10px; }
+
+/* couleur du titre principal et positionnement sur l'image */
+.rainbow { margin: auto; width: 600px; height: 275px ; }
+h1{ font-family: 'Robeto', cursive; color: #C55394; width: 100%; margin: auto; left: 150px; position: relative; top: -120px;}
+/* .rainbow { position: relative; width: 100%; margin: auto; }
+
+/* couleur des sous-toitres */
+h2, h3 { font-family: 'Robeto', cursive; color: #EB43A3; }
+h3 { font-size: 17px; }
+
+/* Espacement entre les div */
+div.principe, div.licornes, div.trouver, div.adresse, div.newsletter { margin-bottom: 20px; }
+
+/* Gestions des images de licornes */
+div.licornes { display: flex; flex-direction: row; }
+
+img.licornes { max-width: 225px; max-height: 225px; margin-right: 15px; }
+
+div.trouver { display: flex; flex-direction: row; }
+div.contact { display: flex; flex-direction: column; }
+
+div.adresse, div.newsletter { margin-left: 10px; }
+
+/* Footer */
+footer{ background-color: #C55394; color: #FFF; padding: 10px; }
+div.copyright { text-align: justify; text-align-last: right; }

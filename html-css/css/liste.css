@@ -1,0 +1,18 @@
+.fruit{
+    color: brown;
+}
+
+ul.fruit{
+    list-style-type: none;
+}
+
+ul.fruit li{
+    float: left;
+    margin: 15px;
+    padding: 0 0 0 20px;
+}
+
+hr{
+    clear: both
+    ;
+}

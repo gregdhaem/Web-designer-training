@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+.contenuBaniere{
+    position: relative;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+.conteneur{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.bandeauTitre{
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    left: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    display: none;
+    /* top: -365px; */
+}
+
+.bandeauTexte{
+    color: white ;
+    left: 30px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    position: relative;
+    display: none;
+    /* top: -365px */
+}
+
+.contenuBaniere:hover  .bandeauTitre{
+    display: block;
+    top: -365px;
+}
+
+.contenuBaniere:hover  .bandeauTexte{
+    display: block;
+    top: -353px;
+}
+

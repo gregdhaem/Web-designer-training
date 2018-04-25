@@ -1,0 +1,24 @@
+p{ 
+    margin:0;
+}
+
+.orange {
+    color: orange; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-weight: bold;
+    }
+/* On peut aussi utiliser right et bottom
+Pour absolute, il est possible d'utiliser top, lef, right et bottom */
+
+/* Par défaut le parent d'une position absolute sera le body.
+Pour qu'un élément absolu devienne enfant il faudra rajoute la propriété css position: relative */
+
+.absolute{
+    width: 660px;
+    height: 440px;
+    margin: 50px auto;
+    border: 2px solid blue;
+    /* position: relative; */
+}

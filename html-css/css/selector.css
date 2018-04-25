@@ -1,0 +1,85 @@
+p { 
+    color: blue
+}/* Tous les éléments p ont une couleur bleu Couleur des paragraphes*/
+
+p:nth-child(even){
+    color: yellow;
+}/* Elément pair*/
+
+p:nth-child(odd){
+    color: pink;
+}/* Elément impair */
+
+p:nth-child(5), p:nth-child(6){
+    color: orange;
+}/* Elément Numéro 5 et 6*/
+
+p:nth-child(2){
+    color: blue;
+}/* Elément Numéro 1*/
+
+p:first-child{
+    color: red;
+}/* Premier élément p de la page générale ou premier élément d'un parent - CSS 3*/
+
+p:last-child{
+    color: green;
+}/* Dernier élément p de la page générale ou dernier élément d'un parent - CSS 3*/
+
+div:not(.zoneB){
+    font-weight: bold
+}
+div:not(.zoneA){
+    font-stretch: narrower
+}
+.zoneA{
+    color: #dc143c
+}
+
+.zoneB{
+    color: blue
+}
+
+.couleurBleu{
+    color: blueviolet
+}
+
+#zoneC{
+    color: #98f32f
+}
+
+#zoneC:after{
+    content: ' x (ajouté dans le css par content: )'; /* */
+}
+
+#zoneD span{
+    color: #32ff32
+}
+/* l'utilisation des childs n'est pas très rassurant dans le cas où le code html serait amené à évoluer. Il est préférable de favoriser l'utilisation de classe et id.
+
+Une classe se déclare dans le document html pour cibler un élément, cela s'utilise ensuite dans le CSS pour y apporter un style spécifique.
+
+-----------------------------------------------------------
+
+Différence entre une classe et id :
+une classe est appelé grâce à un point '.'
+un id est appelé grâce à un dièze '#'
+Le w3c recommande d'utiliser les ids une seule fois dans une page web pour des zones pricipales et des classes (une ou plusieurs fois) pour tout le reste (cependant ce n'est pas une obligation).
+
+-----------------------------------------------------------
+
+Plusieurs moyens de stiliser un élément :
+    par son id : #elem
+    par sa classe : <balise>
+    par la balise + le numéro : balise:nth-child(1)
+    
+-----------------------------------------------------------
+
+Règle d'écriture :
+    div.zone{} veut dire 'va me chercher la div qui possède ma classe 'zone''
+    
+    div .zone{} veut dire 'va me chercher la classe zone qui se trouve à l'INTERIEUR de la div (l'espace change la signification)
+    
+    #monid, .maclasse2{} : il y a des virgules, on applique le style à plusieurs éléments.
+    
+    */

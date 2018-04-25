@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulaire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/formulaire.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- <link rel="icon" type="image/png" href="image.png"> -->
+</head>
+
+<body>
+    <h1>
+        <strong>Merci de remplir ce formulaire</strong>
+    </h1>
+
+    <h4>
+        <em>* L'astérix indique que les champs sont obligatoires ! </em>
+    </h4>
+    <form method="get" action="envoyer.php" enctype="multipart/formdata">
+        <br>
+        <label for="pseudo"> * Pseudo : </label>
+        <input type="text" id="pseudo" name="pseudo" required>
+
+        <label for="password"> * PassWord : </label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="nom"> * Nom : </label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom"> * Prénom : </label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="email"> * E mail : </label>
+        <input type="email" id="email" name="email" required>
+        <label for="avatar"> * Avatar : </label>
+        <input type="file" id="avatar" name="avatar" required>
+        <label for="Pays">Pays </label>
+        <select name="pays" id="Pays" multiple>
+            <optgroup label="Europe">
+                <option value="fr">France </option>
+                <option value="it">Italie </option>
+                <option value="es" selected> Espagne </option>
+                <option value="en">Angleterre </option>
+            </optgroup>
+        </select>
+        <label>Quels sont vos fruits préférés ?</label>
+        <p>
+            <input type="checkbox" name="choix">Orange
+            <input type="checkbox" name="choix">fraise
+            <input type="checkbox" name="choix" checked>Pomme
+            <input type="checkbox" name="choix">Tomate
+        </p>
+        <label>Genre </label>
+        <p>
+            <input type="radio" name="civilite" value="H">Homme
+            <input type="radio" name="civilite" value="M" checked>Femme
+        </p>
+        <p>
+            <label for="ville">Ville </label>
+            <input type="text" id="ville" name="ville" list="france">
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Lyon</option>
+                <option>Marseilles</option>
+                <option>Les Mureaux</option>
+            </datalist>
+            <label for="cp">Zip Code</label>
+            <input type="text" id="cp" name="cp" maxlength="5" title="5 chiffres requis entre 0 et 9" pattern="[0-9{5}]" placeholder="Rempli ton code postal ici"
+            />
+
+            <label for="adresse">Adresse de Livraison</label>
+            <textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+
+            <label for="datedenaissance">Date de Naissance</label>
+            <input type="date" name="datedenaissance" id="datedenaissance">
+
+            <label for="jauge">Jauge</label>
+            <input type="range" min="20" max="80" value="60" id="jauge">
+
+
+        </p>
+        <br>
+        <br>
+        <input type="submit" name="inscription" value="S'Inscrire">
+
+
+
+    </form>
+</body>
+
+</html>

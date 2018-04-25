@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background: pink;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.conteneur{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bl1, .bl2, .bl3, .bl4 {
+    margin: 10px 0 10px 0;
+    width: 150px;
+    height: 300px;
+    background: #cbd2d8;
+    text-align: center;
+    Text-transform: uppercase;
+    border: 1px solid black;
+    
+}
+
+
+footer{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: pink;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid black;
+}

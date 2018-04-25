@@ -1,0 +1,26 @@
+p { 
+    color: blue
+}/* Tous les éléments p ont une couleur rouge Couleur des paragraphes*/
+
+p:first-child{
+    color: red;
+}/* Premier élément p de la page générale ou premier élément d'un parent - CSS 3*/
+
+p:last-child{
+    color: green;
+}/* Premier élément p de la page générale ou premier élément d'un parent - CSS 3*/
+
+p:nth-child(even){
+    color: yellow;
+}/* Premier élément p de la page générale ou premier élément d'un parent - CSS 3*/
+
+p:nth-child(odd){
+    color: pink;
+}/* Premier élément p de la page générale ou premier élément d'un parent - CSS 3*/
+
+.container{border: 1px solid}
+.bordureRouge{border: 3px solid red; padding: 10px;}
+.bordureVerte{border: 3px solid green; padding: 10px;}
+.bordureBleue{border: 3px solid blue; padding: 10px;}
+.bordureJaune{border: 3px solid yellow; padding: 10px;}
+.bordureOrange{border: 3px solid orange; padding: 10px;}

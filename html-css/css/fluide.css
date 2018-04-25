@@ -1,0 +1,19 @@
+#conteneur{
+    border: 2px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    font-size: 1.2vw;
+}
+header{ background: tomato; height: 15vh;
+}
+p{ margin: 0;}
+nav{ background: burlywood;}
+section{ background: pink; margin: 2%;}
+footer{ background: palegreen; height:7.5vh}
+.a{ float: left; width: 33%; height: 28vh; background: grey }
+.b{ float: left; width: 33%; height: 28vh; background: #914b4b }
+.c{ float: left; width: 33%; height: 28vh; background: #6d0808 }
+.d{ float: left; width: 33%; height: 28vh; background: #532222 }
+.clear{ clear: both;}
+

@@ -1,0 +1,55 @@
+form{
+    width: 50%;
+    margin: 60px auto;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 2px grey;
+}
+
+h4, h1{
+    text-align: center;
+}
+
+label, input, select, textarea{
+    display: block;
+    width: 75%;
+    height: 20px;
+    margin: .2em auto;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+select{
+    height: auto;
+}
+
+input[type="checkbox"], 
+input[type="radio"]{
+    display: inline-block;
+}
+
+input[type="range"]:before,
+input[type="range"]:after{
+    position: relative;
+    top: 1em;
+    color: red;
+}
+
+input[type="range"]:before{
+    left: 0em;
+    content: attr(min)
+}
+
+input[type="range"]:after{
+    right: 0em;
+    content: attr(max)
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 26px;
+    border: 0 none;
+    display: block;
+    margin: 20px auto;
+}

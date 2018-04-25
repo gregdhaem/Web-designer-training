@@ -1,0 +1,51 @@
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px double red;
+}
+
+.d21, .d22, .d23, .d24, .d25, .d26, .d27, .d28, .d29, .d210{
+    float: right;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px double blue;
+}
+
+.d31, .d32, .d33, .d34, .d35, .d36, .d37, .d38, .d39, .d310{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px double green;
+}
+
+.d41, .d42, .d43, .d44, .d45, .d46, .d47, .d48, .d49, .d410{
+    float: right;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px double black;
+}
+
+/* .container{
+    width: 570px;
+    height: 570px;
+    margin: 50px;
+} */
+
+
+
+.dmain1, .dmain3 {
+    float: left;
+}
+
+.dmain2, .dmain4{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}

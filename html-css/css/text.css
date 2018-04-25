@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cabin Regular'), 
+         local('Cabin-Regular'), 
+         url('https://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff') format('woff');
+} /* Web Open Font Format*/
+
+@font-face{ /* utilisation d'une police css3 à l'aide d'un fichier*/
+    font-family: 'folksbold';
+    src: url('../police/Folks-Bold-webfont.eot');
+    src: url('../police/Folks-Bold-webfont.eot?iefix') format('embedded-opentype'), 
+         url('../police/Folks-Bold-webfont.woff') format('woff'),
+         url('../police/Folks-Bold-webfont.ttf') format('truetype'),
+         url('../police/Folks-Bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* body{
+    font-family: 'Cabin';
+} */
+
+h1{
+    font-family: 'Cabin';
+    text-align: center;
+    color: crimson;
+    letter-spacing: 3px;
+    font-size: 50px;
+    
+}
+
+h2{
+    font-family: 'folksbold';
+}
+
+
+p{
+    font-family: 'Slabo 27px', serif;
+}
+
+fieldset{
+    font-family: 'folksbold';
+}

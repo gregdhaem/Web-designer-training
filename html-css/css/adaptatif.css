@@ -1,0 +1,91 @@
+#container{
+    border: 2px solid yellow;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+}
+header{
+    background: pink;
+    height: 100px;  
+    border: 1px solid;
+}
+
+p{
+    margin: 0;
+}
+nav{
+    background: #a84c5b;
+    height: 30px;
+    border: 1px solid;
+}
+section{
+    margin: 20px;
+}
+footer{
+    background: turquoise;
+    height: 100px;
+    border: 1px solid;
+}
+.a{
+    float: left;
+    width: 458px;
+    height: 250px;
+    background: #cc9c9c;
+    border: 1px solid;
+}
+.b{
+    float: left;
+    width: 458px;
+    height: 250px;
+    background: #92c992;
+    border: 1px solid;
+}
+.c{
+    float: left;
+    width: 458px;
+    height: 250px;
+    background: #8989c2;
+    border: 1px solid;
+}
+.d{
+    float: left;
+    width: 458px;
+    height: 250px;
+    background: #9a80b3;
+    border: 1px solid;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 1050px){
+    #container{width: 750px; }
+    .a, .b, .c, .d{ width: 355 px; }
+}
+@media screen and (max-width: 780px){
+    #container{width: 550px; }
+    .a, .b, .c, .d{ width: 255 px; }
+}
+@media screen and (max-width: 580px){
+    #container{width: 100%; }
+    .a, .b, .c, .d{ width: 100% px; height: 125px;}
+}
+@media screen and (max-width: 1170px){
+    body:before{ background: lightblue; content: "< 1170px";
+    position: absolute; color: indianred; padding: 2px; font-size: 12px}
+}
+@media screen and (max-width: 960px){
+    body:before{ background: lightblue; content: "< 960px";
+    position: absolute; color: indianred; padding: 2px; font-size: 12px}
+}
+@media screen and (max-width: 750px){
+    body:before{ background: lightblue; content: "< 750";
+    position: absolute; color: indianred; padding: 2px; font-size: 12px}
+}
+@media screen and (max-width: 670px){
+    body:before{ background: lightblue; content: "< 670px";
+    position: absolute; color: indianred; padding: 2px; font-size: 12px}
+}
+@media screen and (max-width: 470px){
+    body:before{ background: lightblue; content: "< 470px";
+    position: absolute; color: indianred; padding: 2px; font-size: 12px}
+}

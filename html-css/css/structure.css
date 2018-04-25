@@ -1,0 +1,32 @@
+body{
+  background: #f0c0c8;
+  /* fond de couleur dans la page*/
+
+}
+
+header{
+    height: 150px;
+    background: #dd7e3b;
+    /* hauteur*/
+}
+
+nav{
+    height: 75px;
+    background: #9c7639;
+}
+
+section{
+    height: 300px;
+    background: #8ab83727;
+    padding: 10px; /* espacement, marge */
+}
+
+article{
+    height: 75px;
+    background: #a0bb6b;
+}
+
+footer{
+    height: 37px;
+    background: #cf6929;
+}

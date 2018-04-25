@@ -1,0 +1,13 @@
+nav{
+    background: #ffc0cb;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+#contenu{
+    border: 2px solid #0000ff;
+    margin: 30px 0 0;
+}
