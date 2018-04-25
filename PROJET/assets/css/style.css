@@ -1,0 +1,12 @@
+* {margin : 0;}
+body {font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; background-color: black;}
+nav a {color: white}
+#message{display: flex; flex-direction: column; justify-content: space-evenly;}
+img {width: 100%;}
+fieldset
+{
+padding: 15px;
+  margin:16px;	
+}
+
+
