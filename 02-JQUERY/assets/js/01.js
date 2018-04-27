@@ -14,22 +14,22 @@
 // 3 façons de faire
 
 // 1-
-jQuery(document).ready(function(){
-// DOM chargé je peux procéder à mon code JQuery
+jQuery(document).ready(function () {
+    // DOM chargé je peux procéder à mon code JQuery
 });
 
 // 2-
-$(document).ready(function(){
-// DOM chargé je peux procéder à mon code JQuery
+$(document).ready(function () {
+    // DOM chargé je peux procéder à mon code JQuery
 });
 
 // 3-
-$(function(){
-// DOM chargé je peux procéder à mon code JQuery
+$(function () {
+    // DOM chargé je peux procéder à mon code JQuery
 });
 
 // 3-bis
-$(()=>{
+$(() => {
     alert("Bienvenue dans ce cours jQuery !");
     // En JS
     document.getElementById('TexteEnJavaScript').innerHTML = ("<strong>Mon text en Java Script</strong>");
@@ -37,6 +37,3 @@ $(()=>{
     $('#TexteEnJquery').html("<strong>Mon text en JQ</strong>");
 
 });
-
-
-

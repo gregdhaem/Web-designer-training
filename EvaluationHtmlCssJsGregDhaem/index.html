@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Langue du texte par défaut de la page -->
+
+<head>
+    <!-- Titre de la page -->
+    <title>OhMyCats</title>
+    <!-- Indique le format d'encodage des caractères  -->
+    <meta charset="UTF-8">
+    <!-- Résolution et taille de l'écran -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Cascading Style Sheet de Bootstrap via CDN. -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!-- Cascading Style Sheet du projet OhMyCats-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- Chargement des fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar de Bootstrap simple (has a heading) -->
+        <nav class="navbar">
+            <span class="navbar-brand mb-0 h1">OhMyCats !</span>
+        </nav>
+
+    </header>
+    <section class="titre">
+        <!-- Section Titre -->
+        <h1>Adoptez un chat trop bon !</h1>
+    </section>
+    <!-- Fin Section Titre -->
+    <section class="formulairecaroussel">
+        <div class="container">
+            <!-- div class container qui contient deux divs, une pour le texte de présentation et l'autre pour le logo-->
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Section formulaire d'adoption -->
+                    <form id="choix">
+                        <!-- Sushi, Maki, Sashimi, Yakitori ou Onigri sont à choisir -->
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Choix du chat :</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1 Sushi</option>
+                                <option>2 Maki</option>
+                                <option>3 Sashimi</option>
+                                <option>4 Yakitori</option>
+                                <option>5 Onigri</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Raison d'adoption :</label>
+                            <textarea class="form-control" id="contenuDuMessage" rows="6">Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat (ou ces chats)...</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+                <!-- Fin Div class col -->
+                <div class="col-md-9">
+                    <!-- Section carousel Slideshow de nos chats -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./assets/img/chat_1.jpg" alt="Premier slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sushi</h5>
+                                    <p>Jolie chatte noire et blanche 3 ans</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/chat_2.jpg" alt="Deuxième slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Maki</h5>
+                                    <p>Petit chatton joueur attend un parent</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/chat_3.jpg" alt="Troisième slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sashimi</h5>
+                                    <p>Ronronne comme un tracteur si vous le caressez</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/chat_4.jpg" alt="Quatrième slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Yakitori</h5>
+                                    <p>Le sage, très propre ne perd pas ses poils</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/chat_5.jpg" alt="Cinquième slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Onigri</h5>
+                                    <p>Très joueur, il aime les chiens et les souris !</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Précédent</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Suivant</span>
+                        </a>
+                    </div>
+                    <!-- Fin caroussel-->
+                </div>
+                <!-- Fin col-->
+            </div>
+            <!-- Fin row-->
+        </div>
+        <!-- Fin container -->
+    </section>
+    <!-- fin section formulaire et caroussel -->
+    <section class="presentation">
+        <!-- Section présentation du site titre simple et paragraphes + logo chat-->
+        <div class="container">
+            <!-- div class container qui contient deux divs, une pour le texte de présentation et l'autre pour le logo-->
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Nos chats à adopter</h2>
+                    <p>Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem
+                        antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent?
+                        Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C.
+                        Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus
+                        dierum hominis est dignitati tributus.
+                    </p>
+                    <br>
+                    <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus,
+                        ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus
+                        libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum
+                        non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+                    </p>
+                </div>
+                <!-- Fin div class col xyz du titre et paragraphe-->
+                <div class="col-md-3">
+                    <img id="cathead" src="./assets/img/tete-chat.png" alt="Tete du matou violet Logo de OhMyCats">
+                </div>
+                <!-- Fin div class col xyz du logo chat-->
+            </div>
+            <!-- Fin div class=row-->
+        </div>
+        <!-- Fin div class=container fluid-->
+    </section>
+    <!-- Fin section présentation -->
+
+    <footer>
+        <!-- Pied de page Copyright signature etc...-->
+        <p>&copy; OhMyCats</p>
+    </footer>
+
+
+    <!-- balises script permaettant d'obtenir via CDN (Content Delivery Network) l'accès à Bootstrap JavaScript, Jquery, Ajax-->
+  
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="./assets/js/ohmycats.js"></script>
+      </body>
+
+</html>
+<!-- 
+Enoncé
+******
+Enfin ! Voici votre premier client ! 
+Vous devez créer une page web pour une association.
+Vous devez intégrer la capture d'écran fournie à l’aide du framework CSS Bootstrap.
+Le client exige que le site soit adaptable sur mobile (responsive) et le formulaire devra
+préalablement être validé à l’aide de jQuery.
+
+L’importance du respect de la maquette est primordiale pour l’association.
+
+Notation
+********
+A la fin du temps imparti, vous devrez livrer l’intégralité de vos fichiers, et une note sur 20
+sera attribuée selon le barème suivant :
+    ●6 points pour la partie 1 - Structure & Responsive
+    ●3 points pour la partie 2 - Slider / Carousel
+    ●6 points pour la partie 3 - Formulaire
+    ●2 points pour la partie 4 - Nos chats à adopter
+    ●1 point par bonus (soit 2 points supplémentaires possibles)
+    ●3 points sur les critères suivants :
+        ○Indentation du code & lisibilité
+        ○Commentaires
+        ○Pertinence du nom des variables
+    
+Contenus textuels
+*****************
+OhMyCats !
+Adoptez un chat trop bon !
+
+
+Les chats à adopter
+    Choix du chat
+    Raison d'adoption
+    Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat...
+
+
+Sushi - Maki - Sashimi  Yakitori - Onigri
+
+
+Nos chats à adopter
+
+    Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+
+    Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+     -->

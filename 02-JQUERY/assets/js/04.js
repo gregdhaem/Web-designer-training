@@ -17,9 +17,9 @@ $('#MonFormulaire').on('submit', function(e) {
     // console.log($(this));
 
     $(this).replaceWith('<p>Bonjour ' + $('#nomcomplet').val() + ' !</p>');
-
+    
     // -- Version Longue
-    $('#MonFormulaire').hide();
+    // $('#MonFormulaire').hide();
 
     // -- Exemple 1
     // document.createElement('p')

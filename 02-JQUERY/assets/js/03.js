@@ -23,7 +23,7 @@ $(function(){
 
 
     });// Fin du hide
-    // $('div').show('slow');
+    $('div').show('slow');
 
 
 });// Fin de $()

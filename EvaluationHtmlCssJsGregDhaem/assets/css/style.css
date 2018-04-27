@@ -1,0 +1,27 @@
+/* 
+    ENONCE
+    -------
+Police des titres :
+	https://fonts.google.com/specimen/Merienda
+Couleurs : 
+	navbar : #061339
+    premier bloc : #B9CDFF + background
+    titre h1 : #FFF
+    autres titres : #2F4073
+	footer : #061339
+    tête chat défaut : #7885A5
+    tête chat hover : #061339
+*/
+
+*{margin: 0 0 0 0;} /*Mise à zéro de certains paramètres */
+body{ color: #2F4073; font-family: 'Open Sans', sans-serif;} /*Couleur par défaut des textes et choix des fonts*/
+header, footer{background-color: #061339; color : #fff} /* Couleur de l'entête et du pied de page commune*/
+section.titre{background-image: url(../img/background.jpg); padding: 30px 30px; text-align: center;} /*Ajout d'une image de fond à la section class titre*/
+h1{color: #FFF } /*Couleur de la balise h1 */
+.formulairecaroussel{background-color: #B9CDFF;}
+h2, h3, h4{ color: #2F4073; } /* Couleur des autres titres balise hn...*/
+h5{ color:#fff; } /*Couleur des titres du slide show */
+.presentation{background-color: #dedede}
+#cathead{background-color: #7885A5;width:100%;} /*Couleur du fond de l'objet img avec l'id "cathead"*/
+#cathead:hover{background-color: #061339;} /*Changement de la couleur du fond de l'objet img avec l'id "cathead" au passage de la souris*/
+footer{text-align: right; color: #fff} /*Spécificité du pied de page - alignement du texte sur la droite*/
